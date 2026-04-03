@@ -1,0 +1,13 @@
+dbt_learn_repos:
+  outputs:
+    dev:
+      account: WBRCLUO-DK22313
+      database: dbt_learning
+      password: zEnith@#010000
+      role: ACCOUNTADMIN
+      schema: Staging
+      threads: 1
+      type: snowflake
+      user: ZENITH0100
+      warehouse: COMPUTE_WH
+  target: dev
